@@ -1,0 +1,172 @@
+/* 
+Copyright 2017, GEICO, All rights reserved.
+Created & Maintained by Tyler Jordan, contact at tyjordan@geico.com
+FOR USE BY GEICO ONLY
+https://designkit.geico.com/styles/colors
+HOW TO USE:
+COLORS
+Simply copy & paste the CSS into your document and then call out a color as a class.
+(type all lowercase and for colors with spaces. use a dash. Ex. geico-blue)
+Ex. <div class="cloudy">Hello World!</div>
+GRADIENTS
+To use the gradient simply add "-gradient" to supported colors.
+Ex. <div class="cloudy-gradient">Hello World!</div>
+SUPPORTED COLORS & GRADIENTS:
+* = GRADIENT SUPPORTED
+Cloudy
+Stormy *
+Overcast
+Midnight
+Foggy
+GEICO Blue *
+Denim *
+Marigold *
+Aqua *
+Gecko *
+Bluejay *
+Tangerine *
+Wisteria *
+Coral *
+Cayenne
+*/
+
+
+.cloudy {
+background: #fafafa;
+}
+
+.stormy {
+background: #757374;
+}
+
+.overcast {
+background: #cdcdcd; 
+}
+
+.midnight {
+background: #222222; 
+}
+
+.foggy {
+background: #ededed;
+}
+
+.geico-blue {
+background: #154995;
+}
+
+.denim {
+background: #4789B6;
+}
+
+.marigold {
+background: #EF7014;
+}
+
+.aqua {
+background: #309FB0;
+}
+
+.gecko {
+background: #4BA449;
+}
+
+.bluejay {
+background: #3773CA;
+}
+
+.tangerine {
+background: #EF5621;
+}
+
+.wisteria {
+background: #977FCC;
+}
+
+.coral {
+background: #FF5F4E;
+}
+
+.cayenne {
+background: #B6091A;
+}
+
+.geico-blue-gradient {
+background: #154995; /* Old browsers */
+background: -moz-linear-gradient(top,  #154995 0%, #1b52a2 50%, #205baf 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #154995 0%,#1b52a2 50%,#205baf 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #154995 0%,#1b52a2 50%,#205baf 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#154995', endColorstr='#205baf',GradientType=0 ); /* IE6-9 */
+}
+
+.bluejay-gradient {
+background: #3773ca; /* Old browsers */
+background: -moz-linear-gradient(top,  #3773ca 0%, #4680d6 50%, #558de1 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #3773ca 0%,#4680d6 50%,#558de1 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #3773ca 0%,#4680d6 50%,#558de1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3773ca', endColorstr='#558de1',GradientType=0 ); /* IE6-9 */
+}
+
+.denim-gradient {
+background: #4789b6; /* Old browsers */
+background: -moz-linear-gradient(top,  #4789b6 0%, #5e90b7 50%, #7496b7 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #4789b6 0%,#5e90b7 50%,#7496b7 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #4789b6 0%,#5e90b7 50%,#7496b7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4789b6', endColorstr='#7496b7',GradientType=0 ); /* IE6-9 */
+}
+
+.tangerine-gradient {
+background: #ef5621; /* Old browsers */
+background: -moz-linear-gradient(top,  #ef5621 0%, #f0612f 50%, #f06b3c 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ef5621 0%,#f0612f 50%,#f06b3c 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ef5621 0%,#f0612f 50%,#f06b3c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef5621', endColorstr='#f06b3c',GradientType=0 ); /* IE6-9 */
+}
+
+.marigold-gradient {
+background: #ef7014; /* Old browsers */
+background: -moz-linear-gradient(top,  #ef7014 0%, #e87528 50%, #e0781b 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ef7014 0%,#e87528 50%,#e0781b 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ef7014 0%,#e87528 50%,#e0781b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef7014', endColorstr='#e0781b',GradientType=0 ); /* IE6-9 */
+}
+
+.wisteria-gradient {
+background: #977fcc; /* Old browsers */
+background: -moz-linear-gradient(top,  #977fcc 0%, #9686ce 50%, #958dd0 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #977fcc 0%,#9686ce 50%,#958dd0 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #977fcc 0%,#9686ce 50%,#958dd0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#977fcc', endColorstr='#958dd0',GradientType=0 ); /* IE6-9 */
+}
+
+.aqua-gradient {
+background: #309fb0; /* Old browsers */
+background: -moz-linear-gradient(top,  #309fb0 0%, #35a1ac 50%, #3ba3a9 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #309fb0 0%,#35a1ac 50%,#3ba3a9 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #309fb0 0%,#35a1ac 50%,#3ba3a9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#309fb0', endColorstr='#3ba3a9',GradientType=0 ); /* IE6-9 */
+}
+
+.coral-gradient {
+background: #ff5f4e; /* Old browsers */
+background: -moz-linear-gradient(top,  #ff5f4e 0%, #f56756 50%, #eb6d5d 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ff5f4e 0%,#f56756 50%,#eb6d5d 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ff5f4e 0%,#f56756 50%,#eb6d5d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5f4e', endColorstr='#eb6d5d',GradientType=0 ); /* IE6-9 */
+}
+
+.gecko-gradient {
+background: #4ba449; /* Old browsers */
+background: -moz-linear-gradient(top,  #4ba449 0%, #5aa35c 50%, #68a26f 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #4ba449 0%,#5aa35c 50%,#68a26f 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #4ba449 0%,#5aa35c 50%,#68a26f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ba449', endColorstr='#68a26f',GradientType=0 ); /* IE6-9 */
+}
+
+.stormy-gradient {
+background: #757374; /* Old browsers */
+background: -moz-linear-gradient(top,  #757374 0%, #858484 50%, #949494 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #757374 0%,#858484 50%,#949494 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #757374 0%,#858484 50%,#949494 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#757374', endColorstr='#949494',GradientType=0 ); /* IE6-9 */
+}
