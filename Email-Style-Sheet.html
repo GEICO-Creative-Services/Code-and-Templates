@@ -11,9 +11,13 @@
     <!-- The title tag shows in email notifications, like Android 4.4. -->
     <!-- Please use an inliner tool to convert all CSS to inline as inpage or external CSS is removed by email clients -->
     <!-- important in CSS is used to prevent the styles of currently inline CSS from overriding the ones mentioned in media queries when corresponding screen sizes are encountered -->
-	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet" type="text/css">
     <!-- CSS Reset -->
     <style type="text/css">
+		
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900');
+
+	
 /* What it does: Remove spaces around the email design added by some email clients. */
       /* Beware: It can remove the padding / margin and add a background color to the compose a reply window. */
 html,  body {
@@ -104,7 +108,6 @@ a[x-apple-data-detectors] {
 		background: linear-gradient(to bottom,  #154995 0%,#1b52a2 50%,#205baf 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#154995', endColorstr='#205baf',GradientType=0 ); /* IE6-9 */
 		}
-
 		.bluejay-gradient {
 		background: #3773ca; /* Old browsers */
 		background: -moz-linear-gradient(top,  #3773ca 0%, #4680d6 50%, #558de1 100%); /* FF3.6-15 */
@@ -112,7 +115,6 @@ a[x-apple-data-detectors] {
 		background: linear-gradient(to bottom,  #3773ca 0%,#4680d6 50%,#558de1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3773ca', endColorstr='#558de1',GradientType=0 ); /* IE6-9 */
 		}
-
 		.denim-gradient {
 		background: #4789b6; /* Old browsers */
 		background: -moz-linear-gradient(top,  #4789b6 0%, #5e90b7 50%, #7496b7 100%); /* FF3.6-15 */
@@ -120,7 +122,6 @@ a[x-apple-data-detectors] {
 		background: linear-gradient(to bottom,  #4789b6 0%,#5e90b7 50%,#7496b7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4789b6', endColorstr='#7496b7',GradientType=0 ); /* IE6-9 */
 		}
-
 		.tangerine-gradient {
 		background: #ef5621; /* Old browsers */
 		background: -moz-linear-gradient(top,  #ef5621 0%, #f0612f 50%, #f06b3c 100%); /* FF3.6-15 */
@@ -128,7 +129,6 @@ a[x-apple-data-detectors] {
 		background: linear-gradient(to bottom,  #ef5621 0%,#f0612f 50%,#f06b3c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef5621', endColorstr='#f06b3c',GradientType=0 ); /* IE6-9 */
 		}
-
 		.marigold-gradient {
 		background: #ef7014; /* Old browsers */
 		background: -moz-linear-gradient(top,  #ef7014 0%, #e87528 50%, #e0781b 100%); /* FF3.6-15 */
@@ -136,7 +136,6 @@ a[x-apple-data-detectors] {
 		background: linear-gradient(to bottom,  #ef7014 0%,#e87528 50%,#e0781b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef7014', endColorstr='#e0781b',GradientType=0 ); /* IE6-9 */
 		}
-
 		.wisteria-gradient {
 		background: #977fcc; /* Old browsers */
 		background: -moz-linear-gradient(top,  #977fcc 0%, #9686ce 50%, #958dd0 100%); /* FF3.6-15 */
@@ -144,7 +143,6 @@ a[x-apple-data-detectors] {
 		background: linear-gradient(to bottom,  #977fcc 0%,#9686ce 50%,#958dd0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#977fcc', endColorstr='#958dd0',GradientType=0 ); /* IE6-9 */
 		}
-
 		.aqua-gradient {
 		background: #309fb0; /* Old browsers */
 		background: -moz-linear-gradient(top,  #309fb0 0%, #35a1ac 50%, #3ba3a9 100%); /* FF3.6-15 */
@@ -152,7 +150,6 @@ a[x-apple-data-detectors] {
 		background: linear-gradient(to bottom,  #309fb0 0%,#35a1ac 50%,#3ba3a9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#309fb0', endColorstr='#3ba3a9',GradientType=0 ); /* IE6-9 */
 		}
-
 		.coral-gradient {
 		background: #ff5f4e; /* Old browsers */
 		background: -moz-linear-gradient(top,  #ff5f4e 0%, #f56756 50%, #eb6d5d 100%); /* FF3.6-15 */
@@ -160,7 +157,6 @@ a[x-apple-data-detectors] {
 		background: linear-gradient(to bottom,  #ff5f4e 0%,#f56756 50%,#eb6d5d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5f4e', endColorstr='#eb6d5d',GradientType=0 ); /* IE6-9 */
 		}
-
 		.gecko-gradient {
 		background: #4ba449; /* Old browsers */
 		background: -moz-linear-gradient(top,  #4ba449 0%, #5aa35c 50%, #68a26f 100%); /* FF3.6-15 */
@@ -168,7 +164,6 @@ a[x-apple-data-detectors] {
 		background: linear-gradient(to bottom,  #4ba449 0%,#5aa35c 50%,#68a26f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ba449', endColorstr='#68a26f',GradientType=0 ); /* IE6-9 */
 		}
-
 		.stormy-gradient {
 		background: #757374; /* Old browsers */
 		background: -moz-linear-gradient(top,  #757374 0%, #858484 50%, #949494 100%); /* FF3.6-15 */
@@ -184,7 +179,6 @@ a[x-apple-data-detectors] {
             .email-container {
                 width: 100% !important;
             }
-
             /* What it does: Forces elements to resize to the full width of their container. Useful for resizing images beyond their max-width. */
             .fluid,
             .fluid-centered {
@@ -198,7 +192,6 @@ a[x-apple-data-detectors] {
                 margin-left: auto !important;
                 margin-right: auto !important;
             }
-
             /* What it does: Forces table cells into full-width rows. */
             .stack-column,
             .stack-column-center {
@@ -226,7 +219,6 @@ a[x-apple-data-detectors] {
             }
                 
         }
-
     </style>
     </head>
     <body bgcolor="#f8f8f8" width="100%" style="margin: 0;" yahoo="yahoo">
@@ -264,7 +256,7 @@ a[x-apple-data-detectors] {
              <!-- Large Hero Text : BEGIN -->
             <tr>
                 <td style="padding: 40px;mso-height-rule: exactly;font-size:40px;line-height:54px;color:#154995;font-family:'Lato', Tahoma, Verdana, Segoe, sans-serif;text-align:center;font-weight:900;">
-                <strong>SAVE MONEY.<br>
+                <strong style="font-weight:900;">SAVE MONEY.<br>
                 BE HAPPY.</strong>
 				</td>
               </tr>
@@ -332,7 +324,7 @@ a[x-apple-data-detectors] {
                 <table cellspacing="0" cellpadding="0" border="0" align="center" style="margin: auto">
                     <tr>
                     <td style="background: #103976; text-align: center;border-radius:3px;" class="button-td">
-                     <a href="https://www.geico.com/" target="_blank" style="background: #103976; border: 15px solid #103976; padding: 0 20px;color: #ffffff; font-family: sans-serif; text-align: center; text-decoration: none; display: block; border-radius: 3px; font-family: 'Lato', Tahoma, Verdana, Segoe, sans-serif;font-weight: bold;font-size:14px;line-height: 23px;" class="button-a"> 
+                     <a href="https://www.geico.com/" target="_blank" style="background: #103976; border: 15px solid #103976; padding: 0 20px;color: #ffffff; font-family: sans-serif; text-align: center; text-decoration: none; display: block; border-radius: 3px; font-family: 'Lato', Tahoma, Verdana, Segoe, sans-serif;font-weight: 400;font-size:14px;line-height: 23px;" class="button-a"> 
                       <!--[if mso]>&nbsp;&nbsp;&nbsp;&nbsp;<![endif]-->GET A QUOTE<!--[if mso]>&nbsp;&nbsp;&nbsp;&nbsp;<![endif]--> 
                       </a>     
                       </td>
@@ -353,7 +345,7 @@ a[x-apple-data-detectors] {
                     <td style="background: #ffffff; text-align: center;border: 1px solid #103976;">
                      
                      
-                     <a href="tel:1-800-841-0728" style="background: #ffffff; border: 15px solid #ffffff; padding: 0 20px;font-family: 'Lato', Tahoma, Verdana, Segoe, sans-serif;color: #103976; text-align: center;cursor:pointer;cursor:hand; text-decoration: none; display: block; border-radius: 3px; font-weight: bold; font-size:14px;line-height: 23px;"> 
+                     <a href="tel:1-800-841-0728" style="background: #ffffff; border: 15px solid #ffffff; padding: 0 20px;font-family: 'Lato', Tahoma, Verdana, Segoe, sans-serif;color: #103976; text-align: center;cursor:pointer;cursor:hand; text-decoration: none; display: block; border-radius: 3px; font-weight: 700; font-size:14px;line-height: 23px;"> 
                       <!--[if mso]>&nbsp;&nbsp;&nbsp;&nbsp;<![endif]-->1-800-841-0728<!--[if mso]>&nbsp;&nbsp;&nbsp;&nbsp;<![endif]--> 
                       </a>
                      <!-- Button 1 : END --> 
@@ -366,7 +358,7 @@ a[x-apple-data-detectors] {
                     <td class="stack-column-center"><table cellspacing="0" cellpadding="0" border="0">
                        <tr>
                     <td style="background: #103976; text-align: center;border: 1px solid #103976;" class="button-td">
-                     <a href="https://www.geico.com/jewelry-insurance/" target="_blank" style="background: #103976; border: 15px solid #103976; padding: 0 20px;color: #ffffff; font-family: sans-serif; text-align: center; text-decoration: none; display: block; border-radius: 3px; font-family: 'Lato', Tahoma, Verdana, Segoe, sans-serif;font-weight: bold;font-size:14px;line-height: 23px;" class="button-a"> 
+                     <a href="https://www.geico.com/jewelry-insurance/" target="_blank" style="background: #103976; border: 15px solid #103976; padding: 0 20px;color: #ffffff; font-family: sans-serif; text-align: center; text-decoration: none; display: block; border-radius: 3px; font-family: 'Lato', Tahoma, Verdana, Segoe, sans-serif;font-weight: 400;font-size:14px;line-height: 23px;" class="button-a"> 
                       <!--[if mso]>&nbsp;&nbsp;&nbsp;&nbsp;<![endif]-->LEARN MORE<!--[if mso]>&nbsp;&nbsp;&nbsp;&nbsp;<![endif]--> 
                       </a>
                       </td>
@@ -409,7 +401,7 @@ a[x-apple-data-detectors] {
               </tr>
             <!-- Background Image with Text : END --> 
             
-            <!-- Two Even Columns STACKING: BEGIN -->
+            <!-- Two Even Columns STACKING: BEGIN 
             <tr>
                 <td align="center" valign="top" style="padding: 10px;"><table cellspacing="0" cellpadding="0" border="0" width="100%">
                     <tr>
@@ -432,9 +424,9 @@ a[x-apple-data-detectors] {
                   </tr>
                   </table></td>
               </tr>
-            <!-- Two Even Columns STACKING: END --> 
+            Two Even Columns STACKING: END --> 
             
-             <!-- Two Even Columns NOT STACKING: BEGIN -->
+             <!-- Two Even Columns NOT STACKING: BEGIN
             <tr>
                 <td align="center" valign="top" style="padding: 10px;"><table cellspacing="0" cellpadding="0" border="0" width="100%">
                     <tr>
@@ -457,9 +449,9 @@ a[x-apple-data-detectors] {
                   </tr>
                   </table></td>
               </tr>
-            <!-- Two Even Columns NOT STACKING: END --> 
+            Two Even Columns NOT STACKING: END --> 
             
-            <!-- Three Even Columns STACKING : BEGIN -->
+            <!-- Three Even Columns STACKING : BEGIN 
             <tr>
                 <td align="center" valign="top" style="padding: 10px;"><table cellspacing="0" cellpadding="0" border="0" width="100%">
                     <tr>
@@ -490,9 +482,9 @@ a[x-apple-data-detectors] {
                   </tr>
                   </table></td>
               </tr>
-            <!-- Three Even Columns STACKING: END --> 
+            Three Even Columns STACKING: END --> 
             
-            <!-- Three Even Columns NOT STACKING : BEGIN -->
+            <!-- Three Even Columns NOT STACKING : BEGIN 
             <tr>
                 <td align="center" valign="top" style="padding: 10px;"><table cellspacing="0" cellpadding="0" border="0" width="100%">
                     <tr>
@@ -523,7 +515,505 @@ a[x-apple-data-detectors] {
                   </tr>
                   </table></td>
               </tr>
-            <!-- Three Even Columns NOT STACKING: END --> 
+            Three Even Columns NOT STACKING: END --> 
+            
+                <!-- Two Even Columns: BEGIN --> 
+            
+             <tr>
+                    <td align="center" height="100%" valign="top" width="100%">
+                        <!--[if (gte mso 9)|(IE)]>
+                        <table align="center" border="0" cellspacing="0" cellpadding="0" width="500">
+                        <tr>
+                        <td align="center" valign="top" width="500">
+                        <![endif]-->
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:500px;">
+                            <tr>
+                                <td align="center" valign="top" style="font-size:0;" class="padding">
+                                    <!--[if (gte mso 9)|(IE)]>
+                                    <table align="center" border="0" cellspacing="0" cellpadding="0" width="500">
+                                    <tr>
+                                    <td align="left" valign="top" width="240">
+                                    <![endif]-->
+                                    <div style="display:inline-block; margin: 0 -2px; max-width:50%; min-width:240px; vertical-align:top; width:100%;" class="wrapper">
+                                        <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:240px;" class="wrapper">
+                                            <tr>
+                                                <td align="center" valign="top">
+                                                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                    	<tr>
+                                                            <td style="padding: 20px 0 30px 0;">
+                                                                <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                                    <tr>
+                                                                        <td align="center" valign="middle"><a href="http://litmus.com" target="_blank"><img src="http://www.kitchenmagic.com/hs-fs/hubfs/images/miscellaneous/square-placeholder.jpg?t=1503158552708&width=262&height=258&name=square-placeholder.jpg" width="240" height="130" style="display: block; width: 240px; height: 130px;mso-height-rule: exactly;font-size:14px;line-height: 23px;color:#555555;font-family:'Lato', Tahoma, Verdana, Segoe, sans-serif;  text-align: center;" class="center-on-narrow" alt="" border="0" class="img-max"></a></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td align="center" style="padding: 0 0 0 0; mso-height-rule: exactly;font-size:18px;line-height: 27px;color:#555555;font-family:'Lato', Tahoma, Verdana, Segoe, sans-serif; font-weight:700;text-align: center;">Header</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td align="center" style="padding: 0 0 0 0; mso-height-rule: exactly;font-size:14px;line-height: 23px;color:#555555;font-family:'Lato', Tahoma, Verdana, Segoe, sans-serif;text-align: center;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td align="center" style="padding: 5px 0 0 0; mso-height-rule: exactly;font-size:14px;line-height: 23px;font-family:'Lato', Tahoma, Verdana, Segoe, sans-serif; text-align: center;"><a href="http://geico.com" target="_blank">Read More &rarr;</a></td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <!--[if (gte mso 9)|(IE)]>
+                                    </td>
+									<td width="20" style="font-size: 1px;">&nbsp;</td>
+                                    <td align="right" valign="top" width="240">
+                                    <![endif]-->
+                                    <div style="display:inline-block; margin: 0 -2px; max-width:50%; min-width:240px; vertical-align:top; width:100%;" class="wrapper">
+                                        <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                                            <tr>
+                                                <td>
+                                                    <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:240px; float: right;" class="wrapper">
+                                                        <tr>
+                                                            <td align="center" valign="top">
+
+                                                                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                    	<tr>
+                                                            <td style="padding: 20px 0 30px 0;">
+                                                                <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                                    <tr>
+                                                                        <td align="center" valign="middle"><a href="http://litmus.com" target="_blank"><img src="http://www.kitchenmagic.com/hs-fs/hubfs/images/miscellaneous/square-placeholder.jpg?t=1503158552708&width=262&height=258&name=square-placeholder.jpg" width="240" height="130" style="display: block; width: 240px; height: 130px;mso-height-rule: exactly;font-size:14px;line-height: 23px;color:#555555;font-family:'Lato', Tahoma, Verdana, Segoe, sans-serif;text-align: center;" class="center-on-narrow" alt="" border="0" class="img-max"></a></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td align="center" style="padding: 0 0 0 0; mso-height-rule: exactly;font-size:18px;line-height: 27px;color:#555555;font-family:'Lato', Tahoma, Verdana, Segoe, sans-serif; font-weight:700;text-align: center;">Header</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td align="center" style="padding: 0 0 0 0; mso-height-rule: exactly;font-size:14px;line-height: 23px;color:#555555;font-family:'Lato', Tahoma, Verdana, Segoe, sans-serif;text-align: center;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td align="center" style="padding: 5px 0 0 0; mso-height-rule: exactly;font-size:14px;line-height: 23px;font-family:'Lato', Tahoma, Verdana, Segoe, sans-serif; text-align: center;"><a href="http://geico.com" target="_blank">Read More &rarr;</a></td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <!--[if (gte mso 9)|(IE)]>
+                                    </td>
+                                    </tr>
+                                    </table>
+                                    <![endif]-->
+                                </td>
+                            </tr>
+                        </table>
+                        <!--[if (gte mso 9)|(IE)]>
+                        </td>
+                        </tr>
+                        </table>
+                        <![endif]-->
+                    </td>
+                </tr>
+                <!-- Two Even Columns STACKING: END --> 
+                
+                 <!-- Two Even Columns NOT STACKING: BEGIN --> 
+            
+             <tr>
+                    <td align="center" height="100%" valign="top" width="100%">
+                        <!--[if (gte mso 9)|(IE)]>
+                        <table align="center" border="0" cellspacing="0" cellpadding="0" width="500">
+                        <tr>
+                        <td align="center" valign="top" width="500">
+                        <![endif]-->
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:500px;">
+                            <tr>
+                                <td align="center" valign="top" style="font-size:0;" class="padding">
+                                    <!--[if (gte mso 9)|(IE)]>
+                                    <table align="center" border="0" cellspacing="0" cellpadding="0" width="500">
+                                    <tr>
+                                    <td align="left" valign="top" width="240">
+                                    <![endif]-->
+                                    <div style="display:inline-block; margin: 0 -2px; max-width:50%; vertical-align:top;" class="wrapper">
+                                        <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:240px;" class="wrapper">
+                                            <tr>
+                                                <td align="center" valign="top">
+                                                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                    	<tr>
+                                                            <td style="padding: 20px 0 30px 0;">
+                                                                <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                                    <tr>
+                                                                        <td align="center" valign="middle"><a href="http://litmus.com" target="_blank"><img src="http://www.kitchenmagic.com/hs-fs/hubfs/images/miscellaneous/square-placeholder.jpg?t=1503158552708&width=262&height=258&name=square-placeholder.jpg" width="90%" height="130" style="display: block; width: 90%; height: 130px;mso-height-rule: exactly;font-size:14px;line-height: 23px;color:#555555;font-family:'Lato', Tahoma, Verdana, Segoe, sans-serif;  text-align: center;" class="center-on-narrow" alt="" border="0" class="img-max"></a></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td align="center" style="padding: 0 0 0 0; mso-height-rule: exactly;font-size:18px;line-height: 27px;color:#555555;font-family:'Lato', Tahoma, Verdana, Segoe, sans-serif; font-weight:700;text-align: center;">Header</td>
+                                                                    </tr>
+                                                                   
+                                                                    <tr>
+                                                                        <td align="center" style="padding: 5px 0 0 0; mso-height-rule: exactly;font-size:14px;line-height: 23px;font-family:'Lato', Tahoma, Verdana, Segoe, sans-serif; text-align: center;"><a href="http://geico.com" target="_blank">Read More &rarr;</a></td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <!--[if (gte mso 9)|(IE)]>
+                                    </td>
+									<td width="20" style="font-size: 1px;">&nbsp;</td>
+                                    <td align="right" valign="top" width="240">
+                                    <![endif]-->
+                                    <div style="display:inline-block; margin: 0 -2px; max-width:50%; vertical-align:top;" class="wrapper">
+                                        <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                                            <tr>
+                                                <td>
+                                                    <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:240px; float: right;" class="wrapper">
+                                                        <tr>
+                                                            <td align="center" valign="top">
+
+                                                                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                    	<tr>
+                                                            <td style="padding: 20px 0 30px 0;">
+                                                                <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                                    <tr>
+                                                                        <td align="center" valign="middle"><a href="http://litmus.com" target="_blank"><img src="http://www.kitchenmagic.com/hs-fs/hubfs/images/miscellaneous/square-placeholder.jpg?t=1503158552708&width=262&height=258&name=square-placeholder.jpg" width="90%" height="130" style="display: block; width: 90%; height: 130px;mso-height-rule: exactly;font-size:14px;line-height: 23px;color:#555555;font-family:'Lato', Tahoma, Verdana, Segoe, sans-serif;text-align: center;" class="center-on-narrow" alt="" border="0" class="img-max"></a></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td align="center" style="padding: 0 0 0 0; mso-height-rule: exactly;font-size:18px;line-height: 27px;color:#555555;font-family:'Lato', Tahoma, Verdana, Segoe, sans-serif; font-weight:700;text-align: center;">Header</td>
+                                                                    </tr>
+                                                                   
+                                                                    <tr>
+                                                                        <td align="center" style="padding: 5px 0 0 0; mso-height-rule: exactly;font-size:14px;line-height: 23px;font-family:'Lato', Tahoma, Verdana, Segoe, sans-serif; text-align: center;"><a href="http://geico.com" target="_blank">Read More &rarr;</a></td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <!--[if (gte mso 9)|(IE)]>
+                                    </td>
+                                    </tr>
+                                    </table>
+                                    <![endif]-->
+                                </td>
+                            </tr>
+                        </table>
+                        <!--[if (gte mso 9)|(IE)]>
+                        </td>
+                        </tr>
+                        </table>
+                        <![endif]-->
+                    </td>
+                </tr>
+                <!-- Two Even Columns NOT STACKING: END --> 
+                
+                
+                
+                 <!-- Three Even Columns STACKING: BEGIN --> 
+            
+             <tr>
+                    <td align="center" height="100%" valign="top" width="100%">
+                        <!--[if (gte mso 9)|(IE)]>
+                        <table align="center" border="0" cellspacing="0" cellpadding="0" width="600">
+                        <tr>
+                        <td align="center" valign="top" width="600">
+                        <![endif]-->
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:600px;">
+                            <tr>
+                                <td align="center" valign="top" style="font-size:0;" class="padding">
+                                    <!--[if (gte mso 9)|(IE)]>
+                                    <table align="center" border="0" cellspacing="0" cellpadding="0" width="600">
+                                    <tr>
+                                    <td align="left" valign="top" width="200">
+                                    <![endif]-->
+                                    <div style="display:inline-block; margin: 0 -2px; max-width:33%; min-width:200px; vertical-align:top; width:100%;" class="wrapper">
+                                        <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:200px;" class="wrapper">
+                                            <tr>
+                                                <td align="center" valign="top">
+                                                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                    	<tr>
+                                                            <td style="padding: 20px 0 30px 0;">
+                                                                <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                                    <tr>
+                                                                        <td align="center" valign="middle"><a href="http://litmus.com" target="_blank"><img src="http://www.kitchenmagic.com/hs-fs/hubfs/images/miscellaneous/square-placeholder.jpg?t=1503158552708&width=262&height=258&name=square-placeholder.jpg" width="160" height="130" style="display: block; width: 160px; height: 130px;mso-height-rule: exactly;font-size:14px;line-height: 23px;color:#555555;font-family:'Lato', Tahoma, Verdana, Segoe, sans-serif; padding: 10px; text-align: center;" class="center-on-narrow" alt="" border="0" class="img-max"></a></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td align="center" style="padding: 0 0 0 0; mso-height-rule: exactly;font-size:18px;line-height: 27px;color:#555555;font-family:'Lato', Tahoma, Verdana, Segoe, sans-serif; font-weight:700;text-align: center;">Header</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td align="center" style="padding: 0 0 0 0; mso-height-rule: exactly;font-size:14px;line-height: 23px;color:#555555;font-family:'Lato', Tahoma, Verdana, Segoe, sans-serif;text-align: center;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td align="center" style="padding: 5px 0 0 0; mso-height-rule: exactly;font-size:14px;line-height: 23px;font-family:'Lato', Tahoma, Verdana, Segoe, sans-serif; text-align: center;"><a href="http://geico.com" target="_blank">Read More &rarr;</a></td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <!--[if (gte mso 9)|(IE)]>
+                                    </td>
+									<td width="20" style="font-size: 1px;">&nbsp;</td>
+                                    <td align="right" valign="top" width="200">
+                                    <![endif]-->
+                                    <div style="display:inline-block; margin: 0 -2px; max-width:33%; min-width:200px; vertical-align:top; width:100%;" class="wrapper">
+                                        <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                                            <tr>
+                                                <td>
+                                                    <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:200px; float: right;" class="wrapper">
+                                                        <tr>
+                                                            <td align="center" valign="top">
+
+                                                                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                    	<tr>
+                                                            <td style="padding: 20px 0 30px 0;">
+                                                                <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                                    <tr>
+                                                                        <td align="center" valign="middle"><a href="http://litmus.com" target="_blank"><img src="http://www.kitchenmagic.com/hs-fs/hubfs/images/miscellaneous/square-placeholder.jpg?t=1503158552708&width=262&height=258&name=square-placeholder.jpg" width="160" height="130" style="display: block; width: 160px; height: 130px;mso-height-rule: exactly;font-size:14px;line-height: 23px;color:#555555;font-family:'Lato', Tahoma, Verdana, Segoe, sans-serif; padding: 10px; text-align: center;" class="center-on-narrow" alt="" border="0" class="img-max"></a></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td align="center" style="padding: 0 0 0 0; mso-height-rule: exactly;font-size:18px;line-height: 27px;color:#555555;font-family:'Lato', Tahoma, Verdana, Segoe, sans-serif; font-weight:700;text-align: center;">Header</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td align="center" style="padding: 0 0 0 0; mso-height-rule: exactly;font-size:14px;line-height: 23px;color:#555555;font-family:'Lato', Tahoma, Verdana, Segoe, sans-serif;text-align: center;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td align="center" style="padding: 5px 0 0 0; mso-height-rule: exactly;font-size:14px;line-height: 23px;font-family:'Lato', Tahoma, Verdana, Segoe, sans-serif; text-align: center;"><a href="http://geico.com" target="_blank">Read More &rarr;</a></td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <!--[if (gte mso 9)|(IE)]>
+                                    </td>
+                                    <td width="20" style="font-size: 1px;">&nbsp;</td>
+                                    <td align="right" valign="top" width="200">
+                                       <![endif]-->
+                                       <div style="display:inline-block; margin: 0 -2px; max-width:33%; min-width:200px; vertical-align:top; width:100%;" class="wrapper">
+                                        <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                                            <tr>
+                                                <td>
+                                                    <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:200px; float: right;" class="wrapper">
+                                                        <tr>
+                                                            <td align="center" valign="top">
+
+                                                                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                    	<tr>
+                                                            <td style="padding: 20px 0 30px 0;">
+                                                                <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                                    <tr>
+                                                                        <td align="center" valign="middle"><a href="http://litmus.com" target="_blank"><img src="http://www.kitchenmagic.com/hs-fs/hubfs/images/miscellaneous/square-placeholder.jpg?t=1503158552708&width=262&height=258&name=square-placeholder.jpg" width="160" height="130" style="display: block; width: 160px; height: 130px;mso-height-rule: exactly;font-size:14px;line-height: 23px;color:#555555;font-family:'Lato', Tahoma, Verdana, Segoe, sans-serif; padding: 10px; text-align: center;" class="center-on-narrow" alt="" border="0" class="img-max"></a></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td align="center" style="padding: 0 0 0 0; mso-height-rule: exactly;font-size:18px;line-height: 27px;color:#555555;font-family:'Lato', Tahoma, Verdana, Segoe, sans-serif; font-weight:700;text-align: center;">Header</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td align="center" style="padding: 0 0 0 0; mso-height-rule: exactly;font-size:14px;line-height: 23px;color:#555555;font-family:'Lato', Tahoma, Verdana, Segoe, sans-serif;text-align: center;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td align="center" style="padding: 5px 0 0 0; mso-height-rule: exactly;font-size:14px;line-height: 23px;font-family:'Lato', Tahoma, Verdana, Segoe, sans-serif; text-align: center;"><a href="http://geico.com" target="_blank">Read More &rarr;</a></td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                        <!--[if (gte mso 9)|(IE)]>
+                                    </tr>
+                                    </table>
+                                    <![endif]-->
+                                    
+                                    
+                                </td>
+                            </tr>
+                        </table>
+                        <!--[if (gte mso 9)|(IE)]>
+                        </td>
+                        </tr>
+                        </table>
+                        <![endif]-->
+                    </td>
+                </tr>
+                <!-- Three Even Columns STACKING: END --> 
+            
+            <!-- Three Even Columns NOT STACKING: BEGIN --> 
+            
+             <tr>
+                    <td align="center" height="100%" valign="top" width="100%">
+                        <!--[if (gte mso 9)|(IE)]>
+                        <table align="center" border="0" cellspacing="0" cellpadding="0" width="600">
+                        <tr>
+                        <td align="center" valign="top" width="600">
+                        <![endif]-->
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:600px;">
+                            <tr>
+                                <td align="center" valign="top" style="font-size:0;" class="padding">
+                                    <!--[if (gte mso 9)|(IE)]>
+                                    <table align="center" border="0" cellspacing="0" cellpadding="0" width="600">
+                                    <tr>
+                                    <td align="left" valign="top" width="200">
+                                    <![endif]-->
+                                    <div style="display:inline-block; margin: 0 -2px; max-width:33%; vertical-align:top;" class="wrapper">
+                                        <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:200px;" class="wrapper">
+                                            <tr>
+                                                <td align="center" valign="top">
+                                                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                    	<tr>
+                                                            <td style="padding: 20px 0 30px 0;">
+                                                                <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                                    <tr>
+                                                                        <td align="center" valign="middle"><a href="http://litmus.com" target="_blank"><img src="http://www.kitchenmagic.com/hs-fs/hubfs/images/miscellaneous/square-placeholder.jpg?t=1503158552708&width=262&height=258&name=square-placeholder.jpg" width="90%" height="130" style="display: block; width: 90%; height: 130px;mso-height-rule: exactly;font-size:14px;line-height: 23px;color:#555555;font-family:'Lato', Tahoma, Verdana, Segoe, sans-serif; padding: 10px; text-align: center;" class="center-on-narrow" alt="" border="0" class="img-max"></a></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td align="center" style="padding: 0 0 0 0; mso-height-rule: exactly;font-size:18px;line-height: 27px;color:#555555;font-family:'Lato', Tahoma, Verdana, Segoe, sans-serif; font-weight:700;text-align: center;">Hdder</td>
+                                                                    </tr>
+                                                                   
+                                                                    <tr>
+                                                                        <td align="center" style="padding: 5px 0 0 0; mso-height-rule: exactly;font-size:14px;line-height: 23px;font-family:'Lato', Tahoma, Verdana, Segoe, sans-serif; text-align: center;"><a href="http://geico.com" target="_blank">Read More &rarr;</a></td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <!--[if (gte mso 9)|(IE)]>
+                                    </td>
+									<td width="20" style="font-size: 1px;">&nbsp;</td>
+                                    <td align="right" valign="top" width="200">
+                                    <![endif]-->
+                                    <div style="display:inline-block; margin: 0 -2px; max-width:33%; vertical-align:top;" class="wrapper">
+                                        <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                                            <tr>
+                                                <td>
+                                                    <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:200px; float: right;" class="wrapper">
+                                                        <tr>
+                                                            <td align="center" valign="top">
+
+                                                                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                    	<tr>
+                                                            <td style="padding: 20px 0 30px 0;">
+                                                                <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                                    <tr>
+                                                                        <td align="center" valign="middle"><a href="http://litmus.com" target="_blank"><img src="http://www.kitchenmagic.com/hs-fs/hubfs/images/miscellaneous/square-placeholder.jpg?t=1503158552708&width=262&height=258&name=square-placeholder.jpg" width="90%" height="130" style="display: block; width: 90%; height: 130px;mso-height-rule: exactly;font-size:14px;line-height: 23px;color:#555555;font-family:'Lato', Tahoma, Verdana, Segoe, sans-serif; padding: 10px; text-align: center;" class="center-on-narrow" alt="" border="0" class="img-max"></a></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td align="center" style="padding: 0 0 0 0; mso-height-rule: exactly;font-size:18px;line-height: 27px;color:#555555;font-family:'Lato', Tahoma, Verdana, Segoe, sans-serif; font-weight:700;text-align: center;">Header</td>
+                                                                    </tr>
+                                                                   
+                                                                    <tr>
+                                                                        <td align="center" style="padding: 5px 0 0 0; mso-height-rule: exactly;font-size:14px;line-height: 23px;font-family:'Lato', Tahoma, Verdana, Segoe, sans-serif; text-align: center;"><a href="http://geico.com" target="_blank">Read More &rarr;</a></td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <!--[if (gte mso 9)|(IE)]>
+                                    </td>
+                                    <td width="20" style="font-size: 1px;">&nbsp;</td>
+                                    <td align="right" valign="top" width="200">
+                                       <![endif]-->
+                                       <div style="display:inline-block; margin: 0 -2px; max-width:33%; vertical-align:top;" class="wrapper">
+                                        <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                                            <tr>
+                                                <td>
+                                                    <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:200px; float: right;" class="wrapper">
+                                                        <tr>
+                                                            <td align="center" valign="top">
+
+                                                                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                    	<tr>
+                                                            <td style="padding: 20px 0 30px 0;">
+                                                                <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                                    <tr>
+                                                                        <td align="center" valign="middle"><a href="http://litmus.com" target="_blank"><img src="http://www.kitchenmagic.com/hs-fs/hubfs/images/miscellaneous/square-placeholder.jpg?t=1503158552708&width=262&height=258&name=square-placeholder.jpg" width="90%" height="130" style="display: block; width: 90%; height: 130px;mso-height-rule: exactly;font-size:14px;line-height: 23px;color:#555555;font-family:'Lato', Tahoma, Verdana, Segoe, sans-serif; padding: 10px; text-align: center;" class="center-on-narrow" alt="" border="0" class="img-max"></a></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td align="center" style="padding: 0 0 0 0; mso-height-rule: exactly;font-size:18px;line-height: 27px;color:#555555;font-family:'Lato', Tahoma, Verdana, Segoe, sans-serif; font-weight:700;text-align: center;">Header</td>
+                                                                    </tr>
+                                                                   
+                                                                    <tr>
+                                                                        <td align="center" style="padding: 5px 0 0 0; mso-height-rule: exactly;font-size:14px;line-height: 23px;font-family:'Lato', Tahoma, Verdana, Segoe, sans-serif; text-align: center;"><a href="http://geico.com" target="_blank">Read More &rarr;</a></td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                        <!--[if (gte mso 9)|(IE)]>
+                                    </tr>
+                                    </table>
+                                    <![endif]-->
+                                    
+                                    
+                                </td>
+                            </tr>
+                        </table>
+                        <!--[if (gte mso 9)|(IE)]>
+                        </td>
+                        </tr>
+                        </table>
+                        <![endif]-->
+                    </td>
+                </tr>
+                <!-- Three Even Columns NOT STACKING: END --> 
+            
+            
+            
+            
+            
+            
             
             <!-- Thumbnail Left, Text Right : BEGIN -->
             <tr>
@@ -547,7 +1037,7 @@ a[x-apple-data-detectors] {
                             <table cellspacing="0" cellpadding="0" border="0" class="center-on-narrow" style="float:left;">
                             <tr>
                                 <td style="background: #103976; text-align: center;border-radius:3px;" class="button-td">
-                     <a href="https://www.geico.com/" target="_blank" style="background: #103976; border: 10px solid #103976; padding: 0 20px;color: #ffffff; font-family: sans-serif; text-align: center; text-decoration: none; display: block; border-radius: 3px; font-family: 'Lato', Tahoma, Verdana, Segoe, sans-serif;font-weight: bold;font-size:14px;line-height: 23px;" class="button-a"> 
+                     <a href="https://www.geico.com/" target="_blank" style="background: #103976; border: 10px solid #103976; padding: 0 20px;color: #ffffff; font-family: sans-serif; text-align: center; text-decoration: none; display: block; border-radius: 3px; font-family: 'Lato', Tahoma, Verdana, Segoe, sans-serif;font-weight:400;font-size:14px;line-height: 23px;" class="button-a"> 
                       <!--[if mso]>&nbsp;&nbsp;&nbsp;&nbsp;<![endif]-->GET A QUOTE<!--[if mso]>&nbsp;&nbsp;&nbsp;&nbsp;<![endif]--> 
                       </a>     
                       </td>
@@ -584,7 +1074,7 @@ a[x-apple-data-detectors] {
                             <table cellspacing="0" cellpadding="0" border="0" class="center-on-narrow" style="float:left;">
                             <tr>
                                 <td style="background: #103976; text-align: center;border-radius:3px;" class="button-td">
-                     <a href="https://www.geico.com/" target="_blank" style="background: #103976; border: 10px solid #103976; padding: 0 20px;color: #ffffff; font-family: sans-serif; text-align: center; text-decoration: none; display: block; border-radius: 3px; font-family: 'Lato', Tahoma, Verdana, Segoe, sans-serif;font-weight: bold;font-size:14px;line-height: 23px;" class="button-a"> 
+                     <a href="https://www.geico.com/" target="_blank" style="background: #103976; border: 10px solid #103976; padding: 0 20px;color: #ffffff; font-family: sans-serif; text-align: center; text-decoration: none; display: block; border-radius: 3px; font-family: 'Lato', Tahoma, Verdana, Segoe, sans-serif;font-weight: 400;font-size:14px;line-height: 23px;" class="button-a"> 
                       <!--[if mso]>&nbsp;&nbsp;&nbsp;&nbsp;<![endif]-->GET A QUOTE<!--[if mso]>&nbsp;&nbsp;&nbsp;&nbsp;<![endif]--> 
                       </a>     
                       </td>
