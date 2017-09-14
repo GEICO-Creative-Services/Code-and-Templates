@@ -1,0 +1,64 @@
+<!-- JUMPING BUTTON -->
+
+
+<!-- Create a button with text on top, once you are finished styling it, ad the id of btn to the button and btn-text to the buttons text. You cannot edit easily after adding the effect-->
+
+
+#btn {
+      animation: jump 1s ease-out infinite;
+    }
+#btn-text {
+      animation: shockwave 1s ease-out infinite;
+    }
+@keyframes button {
+      0% {
+        transform: scale(1);
+        box-shadow: 0 0 2px rgba(0,0,0,0.45), inset 0 0 1px rgba(0,0,0,0.15);
+      }
+      40% {
+        transform: scale(1.08);
+      }
+      50% {
+        transform: scale(0.98);
+        
+        
+      }
+      55% {
+        transform: scale(1.02);
+        
+       
+      }
+      60% {
+        transform: scale(0.98);
+        
+        
+      }
+       95% {
+    box-shadow: 0 0 50px rgba(0,0,0,0), inset 0 0 30px rgba(0,0,0,0);
+  }
+      100% {
+        transform: scale(1);
+        
+        
+      }
+    }
+@keyframes text {
+      0% {
+        transform: scale(1);
+      }
+      40% {
+        transform: scale(1.08);
+      }
+      50% {
+        transform: scale(0.98);
+      }
+      55% {
+        transform: scale(1.02);
+      }
+      60% {
+        transform: scale(0.98);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
