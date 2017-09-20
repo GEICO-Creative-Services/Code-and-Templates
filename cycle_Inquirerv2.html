@@ -1,0 +1,477 @@
+<!doctype html>
+<html><head>
+    <meta charset="UTF-8">
+    <!-- utf-8 works for most cases -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Forcing initial-scale shouldn't be necessary -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Use the latest (edge) version of IE rendering engine -->
+    <title>Time to take that old GEICO quote for a ride.</title>
+    <!-- The title tag shows in email notifications, like Android 4.4. -->
+    <!-- Please use an inliner tool to convert all CSS to inline as inpage or external CSS is removed by email clients -->
+    <!-- important in CSS is used to prevent the styles of currently inline CSS from overriding the ones mentioned in media queries when corresponding screen sizes are encountered -->
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet" type="text/css">
+    <!-- CSS Reset -->
+    
+    <style type="text/css">
+		
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900');
+	
+/* What it does: Remove spaces around the email design added by some email clients. */
+      /* Beware: It can remove the padding / margin and add a background color to the compose a reply window. */
+html,  body {
+	margin: 0 !important;
+	padding: 0 !important;
+	height: 100% !important;
+	width: 100% !important;
+}
+/* What it does: Stops email clients resizing small text. */
+* {
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+/* What it does: Forces Outlook.com to display emails full width. */
+.ExternalClass {
+	width: 100%;
+}
+/* What is does: Centers email on Android 4.4 */
+div[style*="margin: 16px 0"] {
+	margin: 0 !important;
+}
+/* What it does: Stops Outlook from adding extra spacing to tables. */
+table,  td {
+	mso-table-lspace: 0pt !important;
+	mso-table-rspace: 0pt !important;
+}
+/* What it does: Fixes webkit padding issue. Fix for Yahoo mail table alignment bug. Applies table-layout to the first 2 tables then removes for anything nested deeper. */
+table {
+	border-spacing: 0 !important;
+	border-collapse: collapse !important;
+	table-layout: fixed !important;
+	margin: 0 auto !important;
+	color: #154995;
+}
+table table table {
+	table-layout: auto;
+}
+/* What it does: Uses a better rendering method when resizing images in IE. */
+img {
+	-ms-interpolation-mode: bicubic;
+}
+/* What it does: Overrides styles added when Yahoo's auto-senses a link. */
+.yshortcuts a {
+	border-bottom: none !important;
+}
+/* What it does: Another work-around for iOS meddling in triggered links. */
+a[x-apple-data-detectors] {
+	color: inherit !important;
+}
+    </style>
+
+    <!-- Progressive Enhancements -->
+    <style type="text/css">
+        
+        /* What it does: Hover styles for buttons */
+        .button-td,
+        .button-a {
+            transition: all 100ms ease-in;
+        }
+        .button-td:hover,
+        .button-a:hover {
+            transition: all 100ms ease-in;
+			opacity: 0.9;
+        }
+		a {
+			text-decoration: underline;
+			cursor:pointer; 
+			cursor:hand; 
+			color:#0068A5;
+		}
+		a:visited {
+     		color: #551a8b;
+      	}
+   		a:focus {
+     		outline: thin dotted;
+      	}
+   		a:hover,
+   		a:active {
+     		outline: 0;
+	 		text-decoration:none;
+      	}
+		.border-right {
+             border-right: 1px solid #154995;
+        }
+		.geico-blue-gradient {
+		background: #154995; /* Old browsers */
+		background: -moz-linear-gradient(top,  #154995 0%, #1b52a2 50%, #205baf 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top,  #154995 0%,#1b52a2 50%,#205baf 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom,  #154995 0%,#1b52a2 50%,#205baf 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#154995', endColorstr='#205baf',GradientType=0 ); /* IE6-9 */
+		}
+		.bluejay-gradient {
+		background: #3773ca; /* Old browsers */
+		background: -moz-linear-gradient(top,  #3773ca 0%, #4680d6 50%, #558de1 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top,  #3773ca 0%,#4680d6 50%,#558de1 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom,  #3773ca 0%,#4680d6 50%,#558de1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3773ca', endColorstr='#558de1',GradientType=0 ); /* IE6-9 */
+		}
+		.denim-gradient {
+		background: #4789b6; /* Old browsers */
+		background: -moz-linear-gradient(top,  #4789b6 0%, #5e90b7 50%, #7496b7 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top,  #4789b6 0%,#5e90b7 50%,#7496b7 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom,  #4789b6 0%,#5e90b7 50%,#7496b7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4789b6', endColorstr='#7496b7',GradientType=0 ); /* IE6-9 */
+		}
+		.tangerine-gradient {
+		background: #ef5621; /* Old browsers */
+		background: -moz-linear-gradient(top,  #ef5621 0%, #f0612f 50%, #f06b3c 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top,  #ef5621 0%,#f0612f 50%,#f06b3c 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom,  #ef5621 0%,#f0612f 50%,#f06b3c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef5621', endColorstr='#f06b3c',GradientType=0 ); /* IE6-9 */
+		}
+		.marigold-gradient {
+		background: #ef7014; /* Old browsers */
+		background: -moz-linear-gradient(top,  #ef7014 0%, #e87528 50%, #e0781b 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top,  #ef7014 0%,#e87528 50%,#e0781b 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom,  #ef7014 0%,#e87528 50%,#e0781b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef7014', endColorstr='#e0781b',GradientType=0 ); /* IE6-9 */
+		}
+		.wisteria-gradient {
+		background: #977fcc; /* Old browsers */
+		background: -moz-linear-gradient(top,  #977fcc 0%, #9686ce 50%, #958dd0 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top,  #977fcc 0%,#9686ce 50%,#958dd0 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom,  #977fcc 0%,#9686ce 50%,#958dd0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#977fcc', endColorstr='#958dd0',GradientType=0 ); /* IE6-9 */
+		}
+		.aqua-gradient {
+		background: #309fb0; /* Old browsers */
+		background: -moz-linear-gradient(top,  #309fb0 0%, #35a1ac 50%, #3ba3a9 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top,  #309fb0 0%,#35a1ac 50%,#3ba3a9 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom,  #309fb0 0%,#35a1ac 50%,#3ba3a9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#309fb0', endColorstr='#3ba3a9',GradientType=0 ); /* IE6-9 */
+		}
+		.coral-gradient {
+		background: #ff5f4e; /* Old browsers */
+		background: -moz-linear-gradient(top,  #ff5f4e 0%, #f56756 50%, #eb6d5d 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top,  #ff5f4e 0%,#f56756 50%,#eb6d5d 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom,  #ff5f4e 0%,#f56756 50%,#eb6d5d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5f4e', endColorstr='#eb6d5d',GradientType=0 ); /* IE6-9 */
+		}
+		.gecko-gradient {
+		background: #4ba449; /* Old browsers */
+		background: -moz-linear-gradient(top,  #4ba449 0%, #5aa35c 50%, #68a26f 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top,  #4ba449 0%,#5aa35c 50%,#68a26f 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom,  #4ba449 0%,#5aa35c 50%,#68a26f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ba449', endColorstr='#68a26f',GradientType=0 ); /* IE6-9 */
+		}
+		.stormy-gradient {
+		background: #757374; /* Old browsers */
+		background: -moz-linear-gradient(top,  #757374 0%, #858484 50%, #949494 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top,  #757374 0%,#858484 50%,#949494 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom,  #757374 0%,#858484 50%,#949494 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#757374', endColorstr='#949494',GradientType=0 ); /* IE6-9 */
+		}
+        /* Media Queries */
+        @media screen and (max-width: 600px) {
+			.border-right {
+                border-right: 0px solid #154995;
+            }
+            .email-container {
+                width: 100% !important;
+            }
+            /* What it does: Forces elements to resize to the full width of their container. Useful for resizing images beyond their max-width. */
+            .fluid,
+            .fluid-centered {
+                max-width: 100% !important;
+                height: auto !important;
+                margin-left: auto !important;
+                margin-right: auto !important;
+            }
+            /* And center justify these ones. */
+            .fluid-centered {
+                margin-left: auto !important;
+                margin-right: auto !important;
+            }
+            /* What it does: Forces table cells into full-width rows. */
+            .stack-column,
+            .stack-column-center {
+                display: block !important;
+                width: 100% !important;
+                max-width: 100% !important;
+                direction: ltr !important;
+				padding-bottom:20px;
+            }
+            /* And center justify these ones. */
+            .stack-column-center {
+                text-align: center !important;
+            }
+        
+            /* What it does: Generic utility class for centering. Useful for images, buttons, and nested tables. */
+            .center-on-narrow {
+                text-align: center !important;
+                display: block !important;
+                margin-left: auto !important;
+                margin-right: auto !important;
+                float: none !important;
+            }
+            table.center-on-narrow {
+                display: inline-block !important;
+            }
+                
+        }
+    </style>
+    <!--[if mso]>
+<style type="text/css">
+body, table, td {font-family: Arial, Helvetica, sans-serif !important;}
+</style>
+<![endif]-->
+    </head>
+    <body bgcolor="#f8f8f8" width="100%" style="margin: 0;" yahoo="yahoo">
+    <table bgcolor="#FFFFFF" cellpadding="0" cellspacing="0" border="0" height="100%" width="100%" style="border-collapse:collapse;">
+      <tr>
+        <td>
+            
+            <!-- Visually Hidden Preheader Text : BEGIN -->
+            <div style="display:none;font-size:1px;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;mso-hide:all;font-family: sans-serif;"> 
+            The right coverage. The right price.
+            </div>
+            <!-- Visually Hidden Preheader Text : END --> 
+
+             <!-- Email Header SPLIT : BEGIN -->
+            <table align="center" width="600" class="email-container"
+            bgcolor="#000000">
+            <tr>
+                <td style="padding: 20px 10px; text-align: left" width="40%">
+               <a href="file:///Spare/Users/u51pdb/Desktop/Cycle Inquirer/images/geicologo.png" target="_blank"> <img src="images/geicologo.png" width="127" height="22" alt="GEICO" border="0" style="font-size:20px;color:#ffffff;font-family:'Lato', Tahoma, Verdana, Segoe, sans-serif;text-align:center;outline: none;font-weight:900;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;"/></a>
+                </td>
+                 <td style="padding: 20px 10px; text-align: left;padding-left: 40px; padding-right: 40px;padding-top: 10px;padding-bottom: 10px; font-size:14px;line-height: 23px;color:#ffffff;font-family:'Lato', Tahoma, Verdana, Segoe, sans-serif;text-align:left;mso-height-rule: exactly;" width="60%">
+              REFERENCE NUMBER: XXXXXXXXXX
+                </td>
+              </tr>
+	</table>
+            <!-- Email Header SPLIT : END --> 
+            
+            <!-- Email Body : BEGIN -->
+            <table cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#ffffff" width="600" class="email-container">
+			<tr>
+             <!-- Hero Image, Flush : BEGIN -->
+                <td class="full-width-image">
+                <a href="https://www.geico.com/" target="_blank">
+                <img src="images/motorcycle_quote_header.jpg" width="600" alt="Get a new GEICO Motorcycle quote." border="0" align="center" style="width: 100%; max-width: 600px; height: auto;font-size:40px;line-height:54px;color:#555555;font-family:'Lato', Tahoma, Verdana, Segoe, sans-serif;text-align:center;outline: none;font-weight:900;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;">
+					</a>
+                </td>
+				</tr>
+            <!-- Hero Image, Flush : END -->
+			</table><table cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#ffffff" width="600" class="email-container">
+             <!-- Large Hero Text : BEGIN -->
+            <tr>
+                <td style="padding: 5px;mso-height-rule: exactly;font-size:40px;line-height:54px;color:#154995;font-family:'Lato', Tahoma, Verdana, Segoe, sans-serif;text-align:center;font-weight:900;">&nbsp;</td>
+              </tr>
+            <!-- Large Hero Text : END --> 
+               
+</table><table cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#ffffff" width="600" class="email-container">
+           <!-- Header : BEGIN --> 
+            <tr> </tr>
+           <!-- Header : END --> 
+           </table><table cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#ffffff" width="600" class="email-container">
+           <!-- Subheader : BEGIN --> 
+            <tr>
+                <td style="padding-left: 40px; padding-right: 40px;padding-top: 10px;padding-bottom: 30px;font-size:20px;line-height: 30px;color:#555555;font-family:'Lato', Tahoma, Verdana, Segoe, sans-serif;text-align:left;mso-height-rule: exactly;"> Turn the key, pull the clutch and start it up. That’s the sweet sound of freedom. But wait, aren’t you forgetting something? To ride the way you were born to ride you need the right coverage. That means you need GEICO Motorcycle insurance. </td>
+            </tr>
+           <!-- Subheader : END --> 
+           </table><table cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#ffffff" width="600" class="email-container">
+           <!-- Paragraph : BEGIN --> 
+            <tr> </tr>
+           <!-- Paragraph : END --> 
+           </table><table cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#ffffff" width="600" class="email-container">
+           <!-- Smaller Paragraph : BEGIN --> 
+            <tr> </tr>
+           <!-- Smaller Paragraph : END --> 
+           </table><table cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#ffffff" width="600" class="email-container">
+           <!-- Disclaimer : BEGIN --> 
+            <tr> </tr>
+           <!-- Disclaimer : END -->
+           
+               </table><table cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#ffffff" width="600" class="email-container">
+           
+            
+           <!-- Single Button : BEGIN -->
+            
+                <tr>
+                <td style="padding: 10px; text-align: center; mso-height-rule: exactly; color: #555555;">
+                <!-- Button : Begin -->
+                
+                <table cellspacing="0" cellpadding="0" border="0" align="center" style="margin: auto">
+                  
+                  <tr>
+                <td style="padding: 10px 10px 30px 10px; text-align: center; mso-height-rule: exactly; color: #555555;">
+                <!-- Button : Begin -->
+                
+                <table cellspacing="0" cellpadding="0" border="0" align="center" style="margin: auto">
+                    <tr>
+                    <td style="background: #f5dc0a; text-align: center;border-radius:3px;" class="button-td"><div style="border-bottom: 5px solid #998408;box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);border-radius: 3px;">
+                     <a href="https://www.geico.com/" target="_blank" style="background: #f5dc0a; border-top: 15px solid #f5dc0a; border-bottom: 15px solid #f5dc0a; border-right: 20px solid #f5dc0a; border-left: 20px solid #f5dc0a; padding: 0 20px;color: #000000; font-family: sans-serif; text-align: center; text-decoration: none; display: block; border-radius: 3px; font-family: 'Lato', Tahoma, Verdana, Segoe, sans-serif;font-weight: 400;font-size:14px;line-height: 23px;" class="button-a"> 
+                      <!--[if mso]>&nbsp;&nbsp;&nbsp;&nbsp;<![endif]-->GET A QUOTE<!--[if mso]>&nbsp;&nbsp;&nbsp;&nbsp;<![endif]--> 
+                      </a>   </div>  
+                      </td>
+                  </tr>
+                  </table>
+                </td>
+				</tr>
+                  </table>
+                </td>
+			 </tr>
+             <!-- Single Button : END -->   
+              
+             </table>
+	<table width="600" height="" border="0" align="center">
+					  <tbody>
+					    <tr> </tr>
+					    <tr> </tr>
+					    <tr>
+					      <td>&nbsp;</td>
+				        </tr>
+					    <tr>
+					      <td>&nbsp;</td>
+					    </tr>
+					  </tbody>
+	</table>
+					<table cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#ffffff" width="600" class="email-container">
+					  <tbody>
+				    
+					    <tr>
+				      	<td width="120px" style="width:20%;text-align:right;" align="right"> <img src="images/Circle3.png" width="38" height="37" alt=""/> </td>
+				      	
+					      <td width="480px" align="left" style="text-align:left;width:80%;padding-left: 10px; padding-right: 40px;padding-top: 10px;padding-bottom: 10px;font-size:20px;line-height: 20px;color:#555555;font-family:'Lato', Tahoma, Verdana, Segoe, sans-serif;mso-height-rule: exactly;">
+					        Reasons Why GEICO Motorcycle Rocks </td>
+					    </tr>
+			</tbody>
+				    </table><table cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#ffffff" width="600" class="email-container">
+					    <tr>
+					      <td height="311" bgcolor="#ffffff"><img src="images/motorcyclesunset.jpg" width="600" height="311" alt="Motorcycle riding in to the sunset."/></td>
+				        </tr> <tr>
+					    <td align="center" bgcolor="#120806" style="padding-left: 40px; padding-right: 40px; padding-top: 0px; padding-bottom: 40px; 				    
+				      color: #FFFFFF;">
+					      <ul style="padding-left: 40px; padding-right: 40px;padding-top: 0px;padding-bottom: 0px;font-size:15px;line-height: 20px;color:#FFFFFF;font-family:'Lato', Tahoma, Verdana, Segoe, sans-serif;text-align:left;mso-height-rule: exactly;">
+					        <li>Exclusive discounts available for experienced riders, MSF course graduates and more</li><br>
+					        <li style="text-align: left">A knowledgeable team of motorcycle reps</li><br>
+					        <li style="text-align: left">Accessories coverage for the extras you’ve added to make your ride your own</li>
+							</ul></td></tr>
+			          <tbody>
+					    <tr> </tr>
+					    <tr></tr>
+					    <tr></tr>
+					    <tr></tr>
+					    <tr></tr>
+				      </tbody>
+    </table>
+					<table cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#ffffff" width="600" class="email-container">
+					  <tbody>
+					    <tr>
+					      <td height="20"></td>
+				        </tr>
+					    <tr>
+					      <td><p style="padding-left: 40px; padding-right: 40px;padding-top: 10px;padding-bottom: 10px;font-size:20px;line-height: 30px;color:#555555;font-family:'Lato', Tahoma, Verdana, Segoe, sans-serif;text-align:left;mso-height-rule: exactly;">Get a new GEICO Motorcycle quote online, over the phone at 1-800-442-9253 or take a ride to your local GEICO office today.</p></td>
+				        </tr>
+					    <tr>
+					      <td>&nbsp;</td>
+				        </tr>
+					    <tr align="center">
+					      <td><img src="images/geicolocaloffice.png" width="201" height="20" alt=""/></td>
+				        </tr>
+					    <tr align="center">
+					      <td><p style="padding-left: 40px; padding-right: 40px; padding-top: 0px; padding-bottom: 10px; font-size: 20px; line-height: 30px; color: #555555; font-family: 'Lato', Tahoma, Verdana, Segoe, sans-serif; text-align: center; mso-height-rule: exactly;">www.geico.com/motorcycle-insurance<br> 
+1-800-442-9253<br></p>
+					        <table width="600" border="0" cellspacing="0" cellpadding="0">
+					          <tbody>
+					            <tr>
+					              <td width="336">&nbsp;</td>
+					              <td width="264">&nbsp;</td>
+					              
+				                </tr>
+					            <tr bgcolor="#f5dc0a">
+					              <td style="padding: 20px 10px; text-align: left; padding-left: 40px; padding-right: 40px; padding-top: 10px; padding-bottom: 10px; font-size: 14px; line-height: 23px; color: #000000; font-family: 'Lato', Tahoma, Verdana, Segoe, sans-serif; text-align: left; mso-height-rule: exactly;" width="60%">Message ID: GE000179 <br>
+				                  Version Number: XXXXXXX</td>
+					              <td style=" padding-left: 40px; padding-right: 40px; padding-top: 15px; padding-bottom: 15px;text-align: right"><a href="https://www.facebook.com/geico/"><img src="images/facebook.png" width="34" height="34" alt=""/></a><a href="https://plus.google.com/+geico"><img src="images/google.png" width="34" height="34" alt=""/></a><a href="https://twitter.com/geico"><img src="images/twitter.png" width="34" height="34" alt=""/></a><a href="https://www.youtube.com/user/GEICO"><img src="images/youtube.png" width="34" height="34" alt=""/></a></td>
+				                </tr>
+				              </tbody>
+			              </table></td>
+				        </tr>
+				      </tbody>
+    </table>
+					<table cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#ffffff" width="600" class="email-container">
+					  <tbody>
+					    <tr>
+					      <td style="padding: 30px 10px; width: 100%; font-size: 10px; line-height: 15px; color: #B1B1B1; font-family: 'Lato', Tahoma, Verdana, Segoe, sans-serif; text-align: left; mso-height-rule: exactly;" bgcolor="#030303">Some discounts, coverages, payment plans and features are not available in all states or all GEICO companies. Motorcycle and ATV coverages are underwritten by GEICO Indemnity Company. GEICO is a registered service mark of Government Employees Insurance Company, Washington, D.C. 20076; a Berkshire Hathaway Inc. subsidiary. © 2017 GEICO</td>
+				        </tr>
+				      </tbody>
+    </table>
+					<table cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#ffffff" width="600" class="email-container">
+					  <tbody>
+					    <tr>
+					      <td style="padding: 20px 10px; text-align: left; padding-left: 40px; padding-right: 40px; padding-top: 10px; padding-bottom: 10px; font-size: 14px; line-height: 23px; color: #A4A4A4; font-family: 'Lato', Tahoma, Verdana, Segoe, sans-serif; text-align: left; mso-height-rule: exactly;" width="60%">Unsubscribe &nbsp; Contact Us  &nbsp;  Privacy Policy</td>
+				        </tr>
+				      </tbody>
+    </table>
+					<table cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#ffffff" width="600" class="email-container">
+  <table cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#ffffff" width="600" class="email-container">
+					      
+    <!-- Three Even Columns STACKING: BEGIN --> 
+					      
+    <tr>
+					        <td align="center" height="100%" valign="top" width="100%">
+					          <!--[if (gte mso 9)|(IE)]>
+                        <table align="center" border="0" cellspacing="0" cellpadding="0" width="600">
+                        <tr>
+                        <td align="center" valign="top" width="600">
+                        <![endif]--><!--[if (gte mso 9)|(IE)]>
+                        </td>
+                        </tr>
+                        </table>
+                        <![endif]-->
+      </td>
+    </tr>
+				        <!-- Three Even Columns STACKING: END --> 
+			          </table><table cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#ffffff" width="600" class="email-container">
+				          <!-- Three Even Columns NOT STACKING: BEGIN --> 
+					        
+				          <tr>
+					          <td align="center" height="100%" valign="top" width="100%">
+					            <!--[if (gte mso 9)|(IE)]>
+                        <table align="center" border="0" cellspacing="0" cellpadding="0" width="600">
+                        <tr>
+                        <td align="center" valign="top" width="600">
+                        <![endif]--><!--[if (gte mso 9)|(IE)]>
+                        </td>
+                        </tr>
+                        </table>
+                        <![endif]-->
+				            </td>
+		                </tr>
+					        <!-- Three Even Columns NOT STACKING: END --> 
+					        
+					        
+				          </table><table cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#ffffff" width="600" class="email-container">
+					          
+					          
+					          
+					          
+				            <!-- Thumbnail Left, Text Right : BEGIN -->
+				            <tr>
+					            <td dir="ltr" align="center" valign="top" width="100%" style="padding: 10px;"><table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+					              <tr>
+					                <td width="33.33%" class="stack-column-center">&nbsp;</td>
+					                <td width="66.66%" class="stack-column-center">&nbsp;</td>
+				                  </tr>
+					              </table></td>
+			                </tr>
+				            <!-- Thumbnail Left, Text Right : END --> 
+				            </table><table cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#ffffff" width="600" background="cycle_inquirer/images/motorcyclesunset.jpg"></table>
+						</table>
+					  <!-- Blue hr : BEGIN -->
+						</td>
+					  <!-- Blue hr : END --> 
+						</tr>		  
+  </table>
+</body>
+</html>
