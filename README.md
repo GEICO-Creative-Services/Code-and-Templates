@@ -11,7 +11,8 @@ USE THIS REPOSITORY WITH CAUTION, IT IS PUBLIC SO DON'T POST ANYTHING THAT SHOUL
 
 
 ```
-A basic email template that has been tested. If you want to customize outside of this template, I would recommend using code from the 'various-code-widgets' file.
+A basic email template that has been tested. If you want to customize outside of this template, 
+I would recommend using code from the 'various-code-widgets' file.
 ```
 
 ### Various Code Widgets
@@ -32,8 +33,6 @@ All of the color and gradient codes from the GEICO design kit.
 
 ```
 Some GWD code snippets.
-
-
 ```
 
 ### Readme.md
