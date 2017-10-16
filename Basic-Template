@@ -1,0 +1,238 @@
+<!doctype html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <!-- utf-8 works for most cases -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Forcing initial-scale shouldn't be necessary -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Use the latest (edge) version of IE rendering engine -->
+    <title>Life is good. It should be easy, too. We like the sound of that.</title>
+    <!-- The title tag shows in email notifications, like Android 4.4. -->
+    <!-- Please use an inliner tool to convert all CSS to inline as inpage or external CSS is removed by email clients -->
+    <!-- important in CSS is used to prevent the styles of currently inline CSS from overriding the ones mentioned in media queries when corresponding screen sizes are encountered -->
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+	
+    <!-- CSS Reset -->
+    <style type="text/css">
+	@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);.button-a,.button-td,a{transition:all .1s ease-in}body,div[style*="margin: 16px 0"],html{margin:0!important}body,html{padding:0!important;height:100%!important;width:100%!important}*{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}.ExternalClass{width:100%}table,td{mso-table-lspace:0!important;mso-table-rspace:0!important}table{border-spacing:0!important;border-collapse:collapse!important;table-layout:fixed!important;margin:0 auto!important}table table table{table-layout:auto}img{-ms-interpolation-mode:bicubic}.yshortcuts a{border-bottom:none!important}a[x-apple-data-detectors]{color:inherit!important}.button-a,.button-td{opacity:1}.button-a:hover,.button-td:hover,a:active,a:hover{opacity:.85;transition:all .1s ease-in}a{text-decoration:underline;cursor:pointer;cursor:hand;color:#0068A5;opacity:1}a:visited{color:#551a8b}a:focus{outline:dotted thin}a:active,a:hover{outline:0;text-decoration:none}.border-right{border-right:1px solid #154995}@media screen and (max-width:600px){.center-on-narrow,.stack-column-center{text-align:center!important}.center-on-narrow,.fluid,.fluid-centered{margin-left:auto!important;margin-right:auto!important}.border-right{border-right:0 solid #154995}.email-container{width:100%!important}.fluid,.fluid-centered{max-width:100%!important;height:auto!important}.stack-column,.stack-column-center{display:block!important;width:100%!important;max-width:100%!important;direction:ltr!important;padding-bottom:20px}.center-on-narrow{display:block!important;float:none!important}table.center-on-narrow{display:inline-block!important}}@media screen and (max-width:525px){.img-max,.responsive-table,.wrapper{width:100%!important}.img-max,.wrapper{max-width:100%!important}.logo img{margin:0 auto!important}.mobile-hide{display:none!important}.img-max{height:auto!important}.padding{padding:10px 5% 15px!important}.padding-meta{padding:30px 5% 0!important;text-align:center}.no-padding{padding:0!important}.section-padding{padding:50px 15px!important}.mobile-button-container{margin:0 auto;width:100%!important}.mobile-button{padding:15px!important;border:0!important;font-size:16px!important;display:block!important}}@media screen and (max-width:400px){.stack-btn{display:block!important;width:90%!important;max-width:90%!important;direction:ltr!important;padding-bottom:20px;text-align:center!important;margin:auto}}/*!
+ * animate.css -http://daneden.me/animate
+ * Version - 3.5.2
+ * Licensed under the MIT license - http://opensource.org/licenses/MIT
+ *
+ * Copyright (c) 2017 Daniel Eden
+ */.animated{animation-duration:2s;animation-fill-mode:both;animation-delay:3s}.animated.infinite{animation-iteration-count:infinite}@keyframes pulse{from,to{transform:scale3d(1,1,1)}50%{transform:scale3d(1.05,1.05,1.05)}}.pulse{animation-name:pulse}
+	 </style>
+    <!--[if mso]>
+<style type="text/css">
+body, table, td {font-family: Arial, Helvetica, sans-serif !important;}
+</style>
+<![endif]-->
+    </head>
+    <body bgcolor="#f8f8f8" width="100%" style="margin: 0;" yahoo="yahoo">
+    <table bgcolor="#f8f8f8" cellpadding="0" cellspacing="0" border="0" height="100%" width="100%" style="border-collapse:collapse;">
+      <tr>
+        <td><center style="width: 100%;">
+            
+            <!-- Visually Hidden Preheader Text : BEGIN -->
+            <div style="display:none;font-size:1px;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;mso-hide:all;font-family: sans-serif;">
+           Life is good. It should be easy, too. We like the sound of that.
+            </div>
+            <!-- Visually Hidden Preheader Text : END --> 
+            
+            <!-- Email Header : BEGIN -->
+             <table align="center" width="600" class="email-container">
+            <tr>
+                
+                  <td style="padding: 20px 10px 10px 10px; text-align: left" width="100%">
+               <a href="https://www.geico.com/" target="_blank"> <img src="http://embed.widencdn.net/img/geico/0wlzauac5r/exact/17_104748_NET_EML_Retention_Jewelry_Cross_Sell_logo.png?u=bucln9" width="150" height="auto" alt="GEICO" border="0" style="width:150px;font-size:20px;color:#154995;font-family:'Lato', Tahoma, Verdana, Segoe, sans-serif;text-align:center;outline: none;font-weight:900;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;"></a>
+                </td>
+               
+              </tr>
+				</table>
+          
+            <!-- Email Header : END --> 
+             <table cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#ffffff" width="600" class="email-container" style="box-shadow: 0 8px 16px 0 #d9d9d9, 0 6px 20px 0 #d9d9d9;"><tr><td>
+            <!-- Email Body : BEGIN -->
+            <table cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#ffffff" width="600" class="email-container">
+            
+         
+             <!-- Hero Image, Flush : BEGIN -->
+           <tr>
+                <td class="full-width-image"><a href="https://www.geico.com/" target="_blank"><img src="https://embed.widencdn.net/original/geico/n86jekbmgg/17_110595_DBM_EML_Auto_Prospecting_EasyToSwitch_animation.gif" width="600" alt="It's Easy to Switch!" border="0" align="center" style="width: 100%; max-width: 600px; height: auto;font-size:40px;line-height:54px;color:#555555;font-family:'Lato', Tahoma, Verdana, Segoe, sans-serif;text-align:center;outline: none;font-weight:900;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;"></a>
+                </td>
+				</tr>
+            <!-- Hero Image, Flush : END --> 
+          
+            
+            <!-- 1 Column Text : BEGIN -->
+            <tr>
+                <td style="padding: 40px 40px 40px 40px; font-size:14px;line-height: 23px;color:#555555;font-family:'Lato', Tahoma, Verdana, Segoe, sans-serif;text-align:left;mso-height-rule: exactly;">
+                
+               Some say the best part of switching to GEICO for your auto insurance is that new customers save an average of over $500 annually. Others say it’s our 97% customer-satisfaction rating. The only thing better than all of that, is just how easy it is to switch. 
+                <br>
+                <br>
+                Our friendly licensed agents are ready to help. You can reach them <a href="https://www.geico.com/" target="_blank">online</a> or on the <a href="tel:1-800-947-2886">phone</a>—24 hours a day, 7 days a week. Why wait?
+				</td></tr>
+                <tr><td> <table cellspacing="0" cellpadding="0" border="0" align="center" style="margin: auto" class="animated pulse infinite">
+                    <tr>
+                    <td style="background: #103976; text-align: center;border-radius:3px;" class="button-td">
+                     <a href="https://www.geico.com/" target="_blank" style="background: #103976; border: 15px solid #103976; padding: 0 20px;color: #ffffff; font-family: sans-serif; text-align: center; text-decoration: none; display: block; border-radius: 3px; font-family: 'Lato', Tahoma, Verdana, Segoe, sans-serif;font-weight: 400;font-size:14px;line-height: 23px;box-shadow: 3px 3px 0px 0 rgba(0,0,0,1), 2px 2px 0px 0 rgba(0,0,0,1);" class="button-a"> 
+                      <!--[if mso]>&nbsp;&nbsp;&nbsp;&nbsp;<![endif]-->GET A QUOTE <img src="http://embed.widencdn.net/img/geico/hdzbjrbzuo/exact/17_107792_RET_EML_CarKit_arrow-right.png" title="→" alt="→" height="12" style="height:12px;" /><!--[if mso]>&nbsp;&nbsp;&nbsp;&nbsp;<![endif]--> 
+                      </a>     
+                      </td>
+                  </tr>
+                  </table></td></tr>
+                  <tr>
+                <td style="padding: 40px 40px 10px 40px; font-size:14px;line-height: 23px;color:#555555;font-family:'Lato', Tahoma, Verdana, Segoe, sans-serif;text-align:left;mso-height-rule: exactly;">
+                
+                
+                
+                
+                
+                   Why Switch to GEICO?
+                 <ul>
+                 	<li> 
+		 				 Fantastic rates and service
+                 	</li>
+                 	<li> 
+					  97% customer satisfaction rating 
+                 	</li>
+                 	<li> 
+					 Coverage for motorcycle, RV and ATV
+                 	</li>
+<li> 
+               		Help with homeowners, renters and condo
+               	</li>
+           	      </ul>
+                
+               </td>
+              </tr>
+            <!-- 1 Column Text : BEGIN --> 
+           
+          
+              <!-- 1 Column Text : BEGIN -->
+            <tr>
+                <td style="padding: 10px 40px 20px 40px;font-size:14px;line-height: 23px;color:#555555;font-family:'Lato', Tahoma, Verdana, Segoe, sans-serif;text-align:left;mso-height-rule: exactly;">
+               Get a new quote <a href="https://www.geico.com/" target="_blank">online</a>, over the phone at <a href="tel:1-800-947-2886">1-800-947-AUTO (2886)</a>, or visit your local GEICO office today.
+                
+               
+               </td>
+              </tr>
+               <tr><td> <table cellspacing="0" cellpadding="0" border="0" align="center" style="margin: auto" >
+                    <tr>
+                    <td style="background: #ededed; text-align: center;border-radius:3px;" class="button-td">
+                     <a href="https://www.geico.com/" target="_blank" style="background: #ededed; border: 10px solid #ededed; padding: 0 20px;color: #103976; font-family: sans-serif; text-align: center; text-decoration: none; display: block; border-radius: 3px; font-family: 'Lato', Tahoma, Verdana, Segoe, sans-serif;font-weight: 400;font-size:14px;line-height: 23px;" class="button-a"> 
+                      <!--[if mso]>&nbsp;&nbsp;&nbsp;&nbsp;<![endif]-->GET A QUOTE<!--[if mso]>&nbsp;&nbsp;&nbsp;&nbsp;<![endif]--> 
+                      </a>     
+                      </td>
+                  </tr>
+                  </table></td></tr>
+            <tr>
+                    <td style="text-align: center;">
+                    	<a href="https://geico.com" target="_blank">
+                    	<img src="http://embed.widencdn.net/img/geico/snyasujo18/exact/17_104748_NET_EML_Retention_Jewelry_Cross_Sell_sincerely-blue.png?u=bucln9" width="230.3" height="48" alt="Sincerely, GEICO" border="0" align="center" style="font-family: 'Lato', Tahoma, Verdana, Segoe, sans-serif; text-align: center;color:#154995;font-size:14px;line-height: 18px;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;border: none;padding: 20px 40px 0px 40px;">
+						</a>
+                    	
+                    </td>
+                  </tr>
+                           <tr><td> <table cellspacing="0" cellpadding="0" border="0" align="center" style="margin: auto">
+    
+              <tr>
+                    <td style="text-align: center;">
+                    	
+                    	<img src="http://embed.widencdn.net/img/geico/l1evmdzhcu/exact/17_110595_DBM_EML_Auto_Prospecting_EasyToSwitch_gecko.png" width="200" alt="" border="0" align="center" style="font-family: 'Lato', Tahoma, Verdana, Segoe, sans-serif; text-align: center;color:#154995;font-size:14px;line-height: 18px;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;border: none;">
+						
+                    	
+                    </td>
+							   </tr></table></td></tr>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          </table></td></tr>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+          </table>
+            <!-- Email Body : END --> 
+            
+            <!-- Email Footer : BEGIN -->
+            
+           <table align="center" width="600" class="email-container">
+            <tr>
+                <td style="padding: 20px 10px 20px 10px;width: 100%;font-size:10px;line-height: 12px;color: #000000;font-family:'Lato', Tahoma, Verdana, Segoe, sans-serif;text-align:left; mso-height-rule: exactly;">
+	 Some discounts, coverages, payment plans and features are not available in all states or all GEICO companies. Motorcycle and ATV coverages are underwritten by GEICO Indemnity Company. Homeowners, renters and condo coverages are written through non-affiliated insurance companies and are secured through the GEICO Insurance Agency, Inc. Average savings amount based on national GEICO New Policyholder survey data through August 2017. Customer satisfaction based on an independent study conducted by Alan Newman Research, 2017. GEICO is a registered service mark of Government Employees Insurance Company, Washington, D.C. 20076; a Berkshire Hathaway Inc. subsidiary. © 2017 GEICO
+	  <br><br>
+                This email was sent to you at the following email address: 
+                
+                <a href="mailto:%%email address%%">%%email address%%</a>
+                
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                
+                <a href="http://optout.geico.com/OptOut/VerfiyLink.action" target="_blank">Manage your email subscriptions</a><br><br>
+                
+               
+                
+                 <a href="https://www.geico.com/about/contactus/" target="_blank">Contact Us</a>
+                 
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                
+                 <a href="https://media.geico.com//legal/privacy_policy.htm" target="_blank">Privacy Policy</a>
+	  
+                
+                </td>
+				</tr></table><table align="center" width="600" class="email-container">
+             <tr>
+                        <td width="48%" style="mso-height-rule: exactly; padding:0px 10px 20px 10px; font-size:10px;line-height: 12px;color: #000000;font-family:'Lato', Tahoma, Verdana, Segoe, sans-serif;text-align:left;" align="left" class="center-on-narrow">
+                     		 
+                           Message ID: <wbr>%%MessageId%%
+                           <br>
+                           Version Number: <wbr>%%participantId%%
+                           <br><br>%%Company Name%%<br>One GEICO Plaza, Washington D.C. 20076
+                     
+							
+                    	</td>
+                    	<td width="48%" style="mso-height-rule: exactly; padding: 0 10px 10px; font-size:10px;line-height: 12px;color: #000000;font-family:'Lato', Tahoma, Verdana, Segoe, sans-serif;text-align:right;" align="right" class="center-on-narrow">
+                     		 
+                            <a href="https://facebook.com/geico" target="_blank"><img src="http://embed.widencdn.net/img/geico/hqia3pqexf/exact/17_95450_COM_EML_Commercial_Cross_sell_facebook.png" border="0" alt=""/></a>
+                      <a href="https://plus.google.com/+geico" target="_blank"><img src="http://embed.widencdn.net/img/geico/gtbwy0y7rh/exact/17_95450_COM_EML_Commercial_Cross_sell_google-plus.png" border="0" alt="" /></a>
+                      <a href="https://twitter.com/geico" target="_blank"><img src="http://embed.widencdn.net/img/geico/8h9ikrmaqh/exact/17_95450_COM_EML_Commercial_Cross_sell_twitter.png" border="0" alt="" /></a>
+                      <a href="https://youtube.com/geico" target="_blank"><img src="http://embed.widencdn.net/img/geico/zib1epsbuh/exact/17_95450_COM_EML_Commercial_Cross_sell_youtube-play.png" border="0" alt="" /></a>
+                     
+							
+                    	</td>
+                      </tr>
+                      
+          </table><br><br>
+           
+           
+           
+            <!-- Email Footer : END -->
+            
+          </center></td>
+      </tr>
+    </table>
+</body>
+</html>
