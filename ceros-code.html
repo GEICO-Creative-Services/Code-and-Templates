@@ -22,6 +22,7 @@ EXPERIENCE WILL NOT BE RESPONSIVE IF THIS IS NOT DONE**
 <style>
 	*:not(#footer):not(#header){z-index:-1}@media screen and (min-width:1300px){.page-scroll{margin:62.5px 0 0!important}}@media screen and (min-width:1140px) and (max-width:1300px){.page-scroll{margin:75px 0 0!important}}@media screen and (min-width:815px) and (max-width:1140px){.page-scroll{margin:60px 0 50px!important}}@media screen and (min-width:640px) and (max-width:815px){.page-scroll{margin:125px 0 250px!important}}@media screen and (max-width:640px){#header,.logo{text-align:center}.page-scroll{margin:100px 0 250px!important}#logo-sm{display:inline}#logo-lg{display:none}.logo{padding:10px;font-size:1.5rem;line-height:48px;color:#fff;font-family:Lato,Tahoma,Verdana,Segoe,sans-serif;width:5%;min-width:35px;max-width:250px}#logo-container{margin:auto;left:50%;right:50%}#header{position:fixed;top:0;left:0;right:0;width:100%;background:#154995;background:-moz-linear-gradient(top,#154995 0,#1b52a2 50%,#205baf 100%);background:-webkit-linear-gradient(top,#154995 0,#1b52a2 50%,#205baf 100%);background:linear-gradient(to bottom,#154995 0,#1b52a2 50%,#205baf 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#154995', endColorstr='#205baf', GradientType=0 );z-index:99}}@media screen and (min-width:640px){#header,.logo{text-align:center}#logo-sm{display:none}#logo-lg{display:inline}.logo{padding:15px;font-size:1.5rem;line-height:48px;color:#fff;font-family:Lato,Tahoma,Verdana,Segoe,sans-serif;width:8%;min-width:125px;max-width:250px}#logo-container{margin:auto;left:50%;right:50%}#header{position:fixed;top:0;left:0;right:0;width:100%;background:#154995;background:-moz-linear-gradient(top,#154995 0,#1b52a2 50%,#205baf 100%);background:-webkit-linear-gradient(top,#154995 0,#1b52a2 50%,#205baf 100%);background:linear-gradient(to bottom,#154995 0,#1b52a2 50%,#205baf 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#154995', endColorstr='#205baf', GradientType=0 );z-index:99}}.page-scroll{position:absolute!important;top:0!important}
 </style>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 <script>
 if (document.URL.indexOf("http://view.ceros.com/geico/go381-lg") >= 0) {
     var smallExperience = "http://view.ceros.com/geico/go381-sm";
@@ -55,4 +56,167 @@ if (document.URL.indexOf("http://view.ceros.com/geico/go381-mobile") >= 0) {
     var tabletExperience = "http://view.ceros.com/geico/go381-tablet";
     window.innerWidth > 640 && window.innerWidth < 815 && -1 == location.href.indexOf("preview.ceros.com") && (location.href = tabletExperience)
 }
+</script>
+<script>
+(function (root) {
+    'use strict';
+
+    /**
+     * Safely add a URL Param to a given URL
+     *
+     * @param {string} url
+     * @param {string} key
+     * @param {string} value
+     * @return {string}
+     */
+    var setParamInUrl = function (url, key, value) {
+
+        key = encodeURI(key);
+        value = encodeURI(value);
+
+        // Split the URL into its path etc and query string
+        var urlParts = url.split('?'),
+          params = [];
+
+        // If there was a query string
+        if (urlParts.length > 1) {
+            // turn query string array of params ['key=value', ...]
+            params = urlParts[1].split('&');
+        }
+
+        // Flag for if the URL already has this param
+        var foundKey = false;
+
+        // For every existing param
+        for (var i = 0; i < params.length; i++) {
+
+            var paramKeyAndValue = params[i].split('=');
+
+            // If this param is the same as the one we're setting
+            if (paramKeyAndValue[0] === key) {
+
+                foundKey = true;
+
+                // Update its value and put it back in the array
+                paramKeyAndValue[1] = value;
+                params[i] = paramKeyAndValue.join('=');
+
+                break;
+            }
+
+        }
+
+        // If we didn't find a param with the same name, add ours as a new one
+        if (foundKey === false) {
+            params.push(key + '=' + value);
+        }
+
+        // Build the URL back up and return it
+        return urlParts[0] + '?' + params.join('&');
+    };
+
+    /**
+     * Get the SOA parameter from the current URL's query string. This is mostly
+     * copied from https://www.geico.com/landingpage/go381 with some removal of
+     * logic we don't need.
+     *
+     * @return {string}
+     */
+    function getSOAParam() {
+        var foundSOA = "";
+        var strHref = window.location.href;
+        
+        if ( strHref.indexOf("?") > -1 ){
+            var strParams = strHref.substr(strHref.indexOf("?")).toLowerCase();
+
+            var paramsArray = strParams.split("&");
+            for (var i = 0; i < paramsArray.length; i++) {
+                if ((paramsArray[i].indexOf("soa=") > -1 ) || (paramsArray[i].indexOf("s=") > -1 )) {
+                    var aParamArray = paramsArray[i].split("=");
+
+                    //If our SOA is greater than 6 characters, reduce it
+                    if (aParamArray[1].length > 6) {
+                        aParamArray[1] = aParamArray[1].substring(0,6);
+                    }
+
+                    foundSOA = aParamArray[1];
+                }
+            }
+        }
+
+        if (foundSOA === "") {
+            foundSOA = "00001";
+        }
+
+        return foundSOA;
+    }
+
+    /**
+     * The form is being submitted, so capture the zip code and soa values and set them in the action
+     * URL query params. Also, for the soa value, if specified in the current URL's query params,
+     * grab that value and pass it along.
+     */
+    root.handleFormSubmit = function(formElement) {
+      
+        formElement = formElement || document.getElementById('sdkZipForm');
+        if(!formElement) {
+            return;
+        }
+
+        var formAction = formElement.getAttribute('action');
+
+        var zipInput = document.getElementById('zipInput')
+        if(zipInput) {
+            var zipValue = zipInput.value;
+
+            formAction = setParamInUrl(formAction, 'POL_ratedZip5', zipValue);
+        }
+
+        var soaInput = document.getElementById('soaInput')
+        if(soaInput) {
+            var soaValue = getSOAParam();
+            soaInput.value = soaValue;
+
+            formAction = setParamInUrl(formAction, 'soa', soaValue);
+        }
+
+        formElement.setAttribute('action', formAction);
+    }
+
+    require.config({
+        paths: {
+            CerosSDK: "//sdk.ceros.com/standalone-player-sdk-v4.min"
+        }
+    });
+
+    require(['CerosSDK'], function (CerosSDK) {
+
+        CerosSDK.findExperience()
+          .fail(function (error) {
+              console.error(error);
+          })
+          .done(function (experience) {
+
+              var componentCollection = experience.findComponentsByTag('submit-form');
+
+              componentCollection.subscribe(CerosSDK.EVENTS.CLICKED, function (component) {
+                  var formElement = document.getElementById('sdkZipForm');
+                  if(!formElement) {
+                      return;
+                  }
+
+                  // Calling submit on the form element does not trigger the onsubmit handler
+                  // So call it manually first to alter the action URL on the form
+                  handleFormSubmit(formElement);
+
+                  formElement.submit();
+              });
+
+
+          });
+
+    });
+
+
+})(window);
 </script>
